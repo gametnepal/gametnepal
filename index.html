@@ -1,0 +1,333 @@
+f<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gamet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href='http://fonts.googleapis.com/css?family=Lato|Fjalla+One' rel='stylesheet' type='text/css'>
+<!-- Le styles -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: Bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+
+
+
+
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+<!-- Main menu starts here -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container "><a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <span><img src="img/menu-icon.png" width="22" height="23"></span>
+    </a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        
+          <li><a href="reg.html">Pages</a></li>
+      
+          <li><a href="cont.html">Contact</a></li>
+        </ul>
+      </div>
+     <div class="search">
+      <form class="navbar-search">
+        <input type="text" class="search-query" placeholder="Search">
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Main Menu end -->
+<div class="wrap bg1">
+  <div class="container"> <!-- Header starts -->
+    <div class="hero-unit">
+      <div class="brand">
+       <h1>Gamet</h1>
+      </div>
+      <h2 class="hide-text">Welcome to Gamet. Here!We organize many event and tournament.Soo, Welcome to the Club.</h2>
+
+      <p><a href="reg.html" class="btn-header">Goto Registration&nbsp;<img src="img/button-arrow.png" width="22" height="23"></a></p>
+
+      <div class="row-fluid">
+        <div class="header-image"><img src="img/main-banner.png" width="1170" height="485" alt="paradiso banner"></div>
+      </div>
+    </div>
+    <div class="row-fluid spacing-top-bottom">
+      <div class="span4">
+        <h1>How to register?</h1>
+        <h2>It is very simple.</h2>
+       
+
+ <p class="p-pad">To register,first of all you have to keep your phone number 
+in phone column and put your real name in column.At last,you have to put your in-game 
+name(ign) in the form.This is how you can register for the event or tournament  </p>
+        <p><a href="reg.html" class="btn btn-large mar-bot">Register Now</a></p>
+
+
+      </div>
+      <div class="span4">
+        <h1>How the events works?</h1>
+        <h2>Event works based on your participation.</h2>
+        <p class="p-pad">After you fill the form,we get notified.
+We will announce you by mail or message you and announce the sate of 
+the tournament.We will also provide the server adress(IP).Before providing
+ server address(IP) we will tell you about the rules and you can join and play the tournament. </p>
+        <p><a href="#" class="btn btn-large mar-bot">Modes of game</a></p>
+      </div>
+      <div class="span4">
+        <h1>Who are we?</h1>
+        <h2>Minecraft Players bascically.</h2>
+        <p class="p-pad">We are just regular Minecraft players who enjoy the same games.
+One day, we plan to support the Minecraft community or gamer.
+Therefore, we aim to plan a modest event where we try to motivate others to play Minecraft. </p>
+        <p><a href="#" class="btn btn-large mar-bot">About us</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- header end --> 
+</div>
+<div class="wrap bg2 spacing-top-bottom">
+  <div class="container bdr-bottom">
+    <div class="row-fluid">
+      <div class="span8">
+        <div class="tabbable"> <!-- Only required for left/right tabs -->
+          <ul class="nav nav-tabs ">
+            <li class="active"><a href="#tab1" data-toggle="tab">Gameplan</a></li>
+            <li><a href="#tab2" data-toggle="tab">Future Gameplans</a></li>
+              <li class="active"><a href="#tab3" data-toggle="tab">More Gameplans</a></li>
+           
+  <!-- esari hide garna mildo raixa --> 
+ <li class="hide-text"><a href="#tab4" data-toggle="tab">Provident Similiq</a></li>
+  <!-- hide end --> 
+
+          </ul>
+          <div class="tab-content pad-top">
+            <div class="tab-pane active" id="tab1">
+              <div class="span4"><div class="thumbnail"><img src="img/model2.jpg" width="270" height="169" alt="model" ></div></div>
+              <div class="span8">
+                <p>Hello. We are trying to run a event in minecraft strting from small scale and continuously rise. </p>
+                <p> Wee need your help and support to make this possible.</p>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab2">
+              <p>In future we will ask help from you guys in management. If we earn monry then we can definitely pay you. 
+we will also improve the quality of events and prize pool.</p>
+            </div>
+            <div class="tab-pane" id="tab3">
+              <p>Howdy,more future.  <br> Let destiny decide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+
+
+
+        <h1>Modes of games:</h1>
+        <h2> 1.8.9 - 1.16.5 </h2>
+        <ul class="nav nav-tabs nav-stacked pad-top">
+          <li><a href="#"><i class="list-arrow"></i>1.16.5 survival UHC </a></li>
+          <li><a href="#"><i class="list-arrow"></i>Coming soon...</a></li>
+          <li><a href="#"><i class="list-arrow"></i>coming soon...  </a></li>
+          <li><a href="#"><i class="list-arrow"></i>coming soon... </a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container mar-top60">
+    <div class="row-fluid">
+      <div class="span6 mar-bot">
+        <h1 class="big-heading">What is Minecraft?</h1>
+        <h2>Why in minecraft?</h2>
+        <p>Minecraft is an open environment that doesn't come built-in with structured quests and other limitations.
+ This means the players can roam through this world and explore without an urgent set of tasks. It's a sandbox game 
+Thet begs for exploration and self discovery.
+             <br><br> The skill of experimentation and problem solving will help people master challenges in Science, Math
+ and many more subjects. It exercises huge amounts of imagination due to its sandbox nature and increases future opportunities for creativity. 
+         <br><br> By switching into multiplayer mode, players can work together to build and co-create whole new worlds. 
+There has also been scientific research that found that while playing game people suffered less anxiety and and
+ pain caused by medical procedure and illness.
+Prestige from hosting the games attracts trade and tourism. 
+<br><br>
+The organisers are trying to contribute to the community on their scale.</p>
+<p><a href="#" class="btn btn-large mar-bot">Goto Top</a></p>
+
+        
+
+
+
+      </div>
+      <div class="span6">
+        <div classedia"> <a class="pull-left" href="#"><img src="img/model4.png" width="70" height="70" class="media-object thumbnail-small"> </a>
+          <div class="media-body">
+            <h2 class="media-heading">Why we are into this? </h2>
+            <p>we are also minecraft players. We are playing this game since very long time. So we thought we should do somethig for the best community
+we have ever known.</p>
+            
+            <!-- Nested media object --> 
+            
+          </div>
+        </div>
+        <div class="media"> <a class="pull-left" href="#"><img src="img/model5.png" width="70" height="70" class="media-object thumbnail-small"> </a>
+          <div class="media-body">
+            <h2 class="media-heading">What we can offer you?</h2>
+            <p>we are not celebrities or rich kids to give you a lot of money as prize. This dont meant we will not offer you at all. We will give prize as per our capacity.
+                We need you at this time.</p>
+            
+            <!-- Nested media object --> 
+            
+          </div>
+        </div>
+        <div class="media"> <a class="pull-left" href="#"><img src="img/model6.png" width="70" height="70" class="media-object thumbnail-small"> </a>
+          <div class="media-body">
+            <h2 class="media-heading">Why we need you?</h2>
+            <p>we are just in starting phase so we need your help to grow. we need your priceless support. We will improve the experience of events as we grow. You can help us by 
+                donating any amount of money. This is completely your choice. <br> ESEWA ID: 9800923375 </p>
+            
+            <!-- Nested media object --> 
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrap bg3 spacing-top-bottom">
+	<div class="container">
+    <div class="row-fluid">
+    	<div class="span2">
+        <h1 class="footer-heading">Shubham Paudel</h1>
+        <ul class="lists">
+        	<li><a href="#">Facebook </a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+        </ul>
+        </div>
+        <div class="span2">
+        <h1 class="footer-heading">Ankit Rai</h1>
+        <ul class="lists">
+         	<li><a href="#">Facebook </a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+        </ul>
+        </div>
+        <div class="span2">
+        <h1 class="footer-heading">Loading...</h1>
+        <ul class="lists">
+        	<li><a href="#">Facebook </a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+        </ul>
+        </div>
+        <div class="span2">
+        <h1 class="footer-heading">GAMET</h1>
+        <ul class="lists">
+        	<li><a href="#">Facebook </a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+        </ul>
+        </div>
+      <div class="span4">
+       	<h1 class="footer-heading">Oskar Niroula</h1>
+              <div class="social">
+              <ul>
+              	<li><a href="fb.com/oskar8848"><img src="img/facebook.png" width="41" height="40" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/twitter.png" width="41" height="40" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/linkedin.png" width="41" height="40" alt="linked in"></a></li>
+                <li><a href="#"><img src="img/linkedin.png" width="41" height="40" alt="linked in"></a></li>
+              </ul>
+             
+        </div>
+        <div class="copy-rights">
+              	<p>Copyright (c) Gamet <br>
+
+All rights reserved.</p>
+              </div>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
